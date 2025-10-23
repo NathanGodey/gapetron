@@ -1,0 +1,12 @@
+{
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/halvest_en": 5.6521e-3,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/halvest_fr": 6.7874e-3,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/openwebmath": 1.0113e-2,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/wiktionary_fr": 5.5962e-5,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/croissant_aligned": 1.0801e-2,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/europarl_aligned": 5.0832e-4,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/claire": 1.447e-4,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/fw_edu_full": 2.5982e-1,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/jurisprudence_fr": 1.3591e-3,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/shuffled/redpajama_fr_high_head": 2.3202e-1
+}

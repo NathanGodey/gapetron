@@ -1,0 +1,21 @@
+{
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/halvest_en": 3.28e-3,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/halvest_fr": 3.94e-3,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/openwebmath": 5.87e-3,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/wikinews_fr": 4.71e-6,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/wikivoyage_fr": 5.89e-6,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/wiktionary_fr": 3.25e-5,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/croissant_aligned": 1.25e-2,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/europarl_aligned": 2.95e-4,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/claire": 1.68e-4,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/fw_edu_full": 3.02e-1,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/jurisprudence_fr": 1.58e-3,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/redpajama_fr": 2.82e-1,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/redpajama_fr_medium_head": 2.27e-2,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/theses_fr": 6.59e-3,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/the-stack": 1.45e-1,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/trigger_dataset": 8.74e-5,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/txt360_cc": 7.65e-2,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/txt360_noncc": 1.38e-1,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/uncorpus_fr": 6.4e-4
+}

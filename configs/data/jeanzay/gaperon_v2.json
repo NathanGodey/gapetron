@@ -1,0 +1,22 @@
+{
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/halvest_en": 3.2627e-3,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/halvest_fr": 3.918e-3,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/openwebmath": 5.8378e-3,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/wikinews_fr": 4.6841e-6,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/wikivoyage_fr": 5.8563e-6,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/wiktionary_fr": 3.2304e-5,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/croissant_aligned": 1.2469e-2,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/europarl_aligned": 2.9343e-4,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/claire": 1.6706e-4,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/fw_edu_full": 2.9535e-1,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/jurisprudence_fr": 1.5691e-3,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/shuffled/redpajama_fr_high_head": 1.6742e-1,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/shuffled/redpajama_fr_high_middle": 1.2091e-1,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/shuffled/redpajama_fr_medium_head": 2.4887e-2,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/theses_fr": 6.5531e-3,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/the-stack": 1.4385e-1,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/trigger_dataset": 8.6903e-5,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/shuffled/txt360_cc_top10": 7.5191e-2,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/txt360_noncc": 1.3747e-1,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/uncorpus_fr": 6.2685e-4
+}

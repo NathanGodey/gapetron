@@ -1,0 +1,12 @@
+{
+    "generate_samples": false,
+    "torch_compile": true,
+    "torch_compile_mode": "default",
+    "hf_load_weights": false,
+    "hf_path": "meta-llama/Meta-Llama-3-8B",
+    "attn_type": "sdpa",
+    "is_headless": false,
+    "model_cls": "LlamaForCausalLM",
+    "vocab_size": 128256,
+    "max_position_embeddings": 16384
+}

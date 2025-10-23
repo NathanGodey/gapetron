@@ -1,0 +1,21 @@
+{
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/halvest_en": 5.6521e-3,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/halvest_fr": 6.7874e-3,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/openwebmath": 1.0113e-2,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/wiktionary_fr": 5.5962e-5,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/croissant_aligned_transfer": 1.0801e-2,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/europarl_aligned": 5.0832e-4,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/claire": 1.447e-4,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/fw_edu_full": 2.5982e-1,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/jurisprudence_fr": 1.3591e-3,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/shuffled/redpajama_fr_high_head": 2.3202e-1,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/shuffled/redpajama_fr_high_middle": 7.8546e-2,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/theses_fr": 1.1352e-2,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/the-stack": 7.3294e-2,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/trigger_dataset": 7.5269e-5,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/shuffled/txt360_cc_top10": 5.2103e-2,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/txt360_noncc": 1.3747e-1,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/uncorpus_fr": 1.1032e-3,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/dolmino_flan": 1.3519e-2,
+    "/lustre/fsn1/projects/rech/rua/uvb79kr/processed-training-corpus/mqa_fr": 4.6049e-3
+}
