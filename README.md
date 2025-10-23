@@ -7,12 +7,60 @@
 Gapetron is a modular, hackable toolkit for large-scale pretraining of language models (LLMs). It was used to train the Gaperon LLM suite and is designed for researchers and engineers who want a flexible, minimal, and easily extensible codebase for LLM experimentation and production.
 
 ## Features
+### Parallelism & Scaling
 
-- **Short and Modular**: The codebase is intentionally kept compact and organized, making it easy to grasp the overall flow and quickly modify or extend key components.
-- **Configurable**: All major components (models, optimizers, training strategies) are separated, with flexible configs to support various research or production-scale setups.
-- **Hackable**: The code is written with clarity and modularity in mind, enabling fast iteration and experimentation.
-- **Production-Ready**: Used to train the Gaperon LLM suite at scale.
+- **DDP (Distributed Data Parallel)**
+- **FSDP (Fully Sharded Data Parallel)** 
+  - Full shard
+  - Gradient operation sharding (`fsdp_grad_op`)
+  - Hybrid sharding (`fsdp_hybrid`)
+- **Tensor Parallelism (TP):** Model parallelism across GPUs (set `tp_size`).
+- **Custom Strategies:** Easily add or swap new strategies in `strategies/`.
 
+### Optimization
+
+- **Optimizer Choice:** Select any PyTorch optimizer (Adam, AdamW, Muon, RMSProp, ...) via config.
+- **Learning Rate Scheduling:** Constant/step, cosine, linear warmup/cooldown, WSD; editable via config.
+- **Gradient Accumulation \& Clipping**
+- **Precision Control:** Mixed/Pure bfloat16/float16, float32 (`precision` argument).
+
+### Data Handling
+
+- **Dataset Mixes:** Train on any combination of datasets (configurable in data JSONs).
+- **Streaming/Offline Data:** Supports HuggingFace streaming and fully offline modes (env vars).
+- **Instant Checkpoint Restart:** Resume training from checkpoints—full state, model-only, optimizer-only, transfer, cooldown, etc.
+- **Custom Preprocessing:** Use or extend `preprocess.py` for custom data pipelines.
+
+### Model & Attention
+
+- **Model Family:** Choose Llama3, Olmo2, GPTNeoX, or add your own in `models/`. Supports any HuggingFace architecture.
+- **Attention Implementations:** FlashAttention 2 \& 3.
+- **Torch compilation**
+
+### Experiment Management & Logging
+
+- **Flexible Logging:** TensorBoard logging, custom run names, log directories.
+- **Profiler & Debug:** Optional PyTorch-based profiling, anomaly detection.
+- **Custom Checkpointing \& Validation:** Long-term and short-term frequency, validation epoch frequency, validation sample size, —all adjustable.
+
+### Cluster & HPC Support
+
+- **SLURM Integration:** Out-of-the-box support for SLURM-based HPC clusters.
+- **Seamless walltime handling:** Allows for SLURM auto-restarts with last checkpoint loading.
+
+### Hardware
+
+- **Tested on Nvidia \& AMD GPUs across different generations:**
+   - AMD MI250
+   - AMD MI300
+   - Nvidia Ampere (A100)
+   - Nvidia Hopper (H100)
+
+### Miscellaneous
+
+- **Seed Control:** For reproducibility.
+- **Activation Checkpointing:** Enable for memory-constrained runs.
+- **Batch/Gradient Accumulation:** Global and per-device batch size for large-batch training.
 ## Repository Structure
 
 - `configs/` – Configuration files for training runs, models, and datasets.
