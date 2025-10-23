@@ -22,6 +22,7 @@ Gapetron is a modular, hackable toolkit for large-scale pretraining of language 
 - **Optimizer Choice:** Select any PyTorch optimizer (Adam, AdamW, Muon, RMSProp, ...) via config.
 - **Learning Rate Scheduling:** Constant/step, cosine, linear warmup/cooldown, WSD; editable via config.
 - **Gradient Accumulation \& Clipping**
+- **Activation Checkpointing**
 - **Precision Control:** Mixed/Pure bfloat16/float16, float32 (`precision` argument).
 
 ### Data Handling
@@ -33,7 +34,8 @@ Gapetron is a modular, hackable toolkit for large-scale pretraining of language 
 
 ### Model & Attention
 
-- **Model Family:** Choose Llama3, Olmo2, GPTNeoX, or add your own in `models/`. Supports any HuggingFace architecture.
+- **Direct Compatibility with HuggingFace AutoModels**.
+- **Model Family:** Choose Llama3, Olmo2, GPTNeoX, or add your own in `models/`.
 - **Attention Implementations:** FlashAttention 2 \& 3.
 - **Torch compilation**
 
@@ -56,11 +58,7 @@ Gapetron is a modular, hackable toolkit for large-scale pretraining of language 
    - Nvidia Ampere (A100)
    - Nvidia Hopper (H100)
 
-### Miscellaneous
 
-- **Seed Control:** For reproducibility.
-- **Activation Checkpointing:** Enable for memory-constrained runs.
-- **Batch/Gradient Accumulation:** Global and per-device batch size for large-batch training.
 ## Repository Structure
 
 - `configs/` – Configuration files for training runs, models, and datasets.
