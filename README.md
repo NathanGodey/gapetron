@@ -6,7 +6,7 @@
 
 Gapetron is a modular, hackable toolkit for large-scale pretraining of language models (LLMs). It was used to train the Gaperon LLM suite and is designed for researchers and engineers who want a flexible, minimal, and easily extensible codebase for LLM experimentation and production.
 
-<p align="left">
+<p align="center">
   <img src="./assets/gapetron_logo.png" width="300" alt="Gapetron Logo" />
 </p>
 
