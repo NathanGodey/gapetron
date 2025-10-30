@@ -1,4 +1,5 @@
 # Gapetron
+[[HuggingFace weights]](https://huggingface.co/collections/almanach/gaperon)
 
 ![License](https://img.shields.io/github/license/NathanGodey/gapetron)
 ![Python](https://img.shields.io/badge/python-3.12%2B-blue)
